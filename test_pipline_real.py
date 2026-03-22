@@ -121,12 +121,12 @@ def evaluate_copula_model(model, test_loader, device="cuda", num_samples=100):
     avg_es = total_es / num_batches
     
     print("\n" + "="*50)
-    print("🏆 测试集终极评估报告")
+    print("测试集终极评估报告")
     print("="*50)
-    print(f"📌 [点预测] MSE:   {avg_mse:.4f}")
-    print(f"📌 [点预测] MAE:   {avg_mae:.4f}")
-    print(f"🌟 [边缘概率] CRPS: {avg_crps:.4f}")
-    print(f"🔥 [联合概率] ES:   {avg_es:.4f}")
+    print(f"[点预测] MSE:   {avg_mse:.4f}")
+    print(f"[点预测] MAE:   {avg_mae:.4f}")
+    print(f"[边缘概率] CRPS: {avg_crps:.4f}")
+    print(f"[联合概率] ES:   {avg_es:.4f}")
     print("="*50)
     
     # 计算测试集的经验相关系数矩阵 (Empirical Correlation Matrix)
