@@ -90,7 +90,7 @@ if __name__ == "__main__":
     
     # 替换为你本地下载的数据集路径
     #/home/gaostudent/LeiJia/NLP/myproject/proj1_tsLLM/data/all_six_datasets/electricity/electricity.csv
-    CSV_PATH = "/home/gaostudent/LeiJia/NLP/myproject/proj1_tsLLM/data/all_six_datasets/illness/national_illness.csv" 
+    CSV_PATH = "./data/all_six_datasets/illness/national_illness.csv" 
     
     print("1. 构建真实数据管道...")
     train_loader, val_loader, test_loader, scaler, D_VAR = get_real_data_loaders(
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     # 7. 保存炼丹成果 (新增)
     # ==========================================
     save_copula_model(trained_model, save_path=
-                      "/home/gaostudent/LeiJia/NLP/myproject/proj1_tsLLM/outputs/save_models/copula_llm_best_epoch_real.pth")
+                      "./outputs/save_models/copula_llm_best_epoch_real.pth")
     
     # ==========================================
     # 8. 加载权重并进入测试评估 (可选，展示完整闭环)
@@ -133,6 +133,6 @@ if __name__ == "__main__":
         seq_len=SEQ_LEN,
         pred_len=PRED_LEN,
         d_var=D_VAR) # 重新实例化
-    model_for_test = load_copula_model(model=model_for_test, load_path="/home/gaostudent/LeiJia/NLP/myproject/proj1_tsLLM/outputs/save_models/copula_llm_best_epoch_real.pth",device=device)
+    model_for_test = load_copula_model(model=model_for_test, load_path="./outputs/save_models/copula_llm_best_epoch_real.pth",device=device)
     evaluate_copula_model(model_for_test, test_loader)
     
