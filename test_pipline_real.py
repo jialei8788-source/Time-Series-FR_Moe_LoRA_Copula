@@ -173,7 +173,7 @@ def plot_correlation_matrices(R_empirical, R_pred):
     plt.tight_layout()
     
     # 保存图片 (保留你原本的特定路径)
-    save_path = f"/home/gaostudent/LeiJia/NLP/myproject/proj1_tsLLM/outputs/results/real_data_correlation_{D}D.png"
+    save_path = f"./outputs/results/real_data_correlation_{D}D.png"
     plt.savefig(save_path, dpi=300, bbox_inches='tight')
     print(f"\n📸 {D}维相关系数对比热力图已成功保存为 '{save_path}'！")   
     #plt.show()
