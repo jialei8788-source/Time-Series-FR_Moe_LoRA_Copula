@@ -31,7 +31,7 @@ A deep probabilistic forecasting framework for ultra-high-dimensional time serie
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/FMoE-Copula.git](https://github.com/your-username/FMoE-Copula.git)
+git clone [https://github.com/your-username/FMoE-Copula.git](https://github.com/jialei8788-source/FMoE-Copula.git)
 cd FMoE-Copula
 
 # Create conda environment
