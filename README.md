@@ -7,7 +7,7 @@ A deep probabilistic forecasting framework for ultra-high-dimensional time serie
 [![Transformers](https://img.shields.io/badge/🤗_Transformers-Latest-orange.svg)](https://huggingface.co/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**FMoE-Copula** is a state-of-the-art deep probabilistic forecasting framework designed for ultra-high-dimensional and non-stationary time series. By synergizing 4-bit quantized Large Language Models (LLMs) with Frequency-routed Mixture-of-Experts (MoE) and a highly optimized Gaussian Copula joint probability mechanism, this project achieves near-SOTA point forecasting while providing rigorous high-dimensional uncertainty estimation.
+**FMoE-Copula** is a state-of-the-art deep probabilistic forecasting framework designed for ultra-high-dimensional and non-stationary time series. By synergizing 4-bit quantized Large Language Models (LLMs) with Frequency-routed Mixture-of-Experts (MoE) and a highly optimized Gaussian Copula joint probability mechanism, this project achieves near point forecasting (Autoformer, 2021) while providing rigorous high-dimensional uncertainty estimation.
 
 ## ✨ Core Innovations 
 
