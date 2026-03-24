@@ -9,9 +9,9 @@ A deep probabilistic forecasting framework for ultra-high-dimensional time serie
 
 **FMoE-Copula** is a state-of-the-art deep probabilistic forecasting framework designed for ultra-high-dimensional and non-stationary time series. By synergizing 4-bit quantized Large Language Models (LLMs) with Frequency-routed Mixture-of-Experts (MoE) and a highly optimized Gaussian Copula joint probability mechanism, this project achieves near point forecasting (Autoformer, 2021) while providing rigorous high-dimensional uncertainty estimation.
 # ===============================================
-Wheather: Ours            -- MSE: 0.103 MAE: 0.131 \\
-          DUET (KDD2025)  -- MSE: 0.146  MAE: 0.191 \\
-          FreEformer(IJCAI2025) --  MSE: 0.239  MAE: 0.260 \\
+Wheather: Ours            -- MSE: 0.103 MAE: 0.131 \
+          DUET (KDD2025)  -- MSE: 0.146  MAE: 0.191 \
+          FreEformer(IJCAI2025) --  MSE: 0.239  MAE: 0.260 \
 # ===============================================
 ## ✨ Core Innovations 
 
