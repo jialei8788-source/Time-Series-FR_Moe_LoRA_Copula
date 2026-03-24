@@ -15,10 +15,19 @@ Wheather: Ours                  -- MSE: 0.172  MAE: 0.221  \
           FreEformer(IJCAI2025) --  MSE: 0.239  MAE: 0.260 \
           
 in_length=96,pre_length=96 \
-Exchange: Ours                  -- MSE:   MAE:  \
-          DUET (KDD2025)        -- MSE:   MAE:  \
+Exchange: Ours                  -- MSE: 0.137  MAE: 0.250  \
+          DUET (KDD2025)        -- MSE: 0.080  MAE: 0.198  \
+          FreEformer(IJCAI2025) -- MSE: 0.354  MAE: 0.399 \
+          
+in_length=96,pre_length=96 \
+Traffic: Ours                   -- MSE:   MAE:   \
+          DUET (KDD2025)        -- MSE:   MAE:   \
           FreEformer(IJCAI2025) -- MSE:   MAE:  \
-
+          
+in_length=96,pre_length=96 \
+Electricity: Ours               -- MSE:   MAE:   \
+          DUET (KDD2025)        -- MSE:   MAE:   \
+          FreEformer(IJCAI2025) -- MSE:   MAE:  \
           
 in_length=36,pre_length=24 \
 ILL:      Ours                  -- MSE: 1。531  MAE: 0。842 \
