@@ -21,13 +21,13 @@ Exchange: Ours                  -- MSE: 0.100  MAE: 0.224  \
           
 in_length=96,pre_length=96 \
 Traffic:  Ours                  -- MSE:   MAE:   \
-          DUET (KDD2025)        -- MSE:   MAE:   \
-          FreEformer(IJCAI2025) -- MSE:   MAE:  \
+          DUET (KDD2025)        -- MSE: 0.360  MAE: 0.238  \
+          FreEformer(IJCAI2025) -- MSE: 0.435  MAE: 0.251 \
           
 in_length=96,pre_length=96 \
-Electricity: Ours               -- MSE:   MAE:   \
-          DUET (KDD2025)        -- MSE:   MAE:   \
-          FreEformer(IJCAI2025) -- MSE:   MAE:  \
+Electricity: Ours               -- MSE: 0.174  MAE: 0.281  \
+          DUET (KDD2025)        -- MSE: 0.128  MAE: 0.219  \
+          FreEformer(IJCAI2025) -- MSE: 0.162  MAE: 0.251\
           
 in_length=36,pre_length=24 \
 ILL:      Ours                  -- MSE: 1.531  MAE: 0.842 \
