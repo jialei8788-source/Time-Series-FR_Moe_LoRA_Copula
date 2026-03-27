@@ -20,7 +20,7 @@ Exchange: Ours                  -- MSE: 0.100  MAE: 0.224  \
           FreEformer(IJCAI2025) -- MSE: 0.354  MAE: 0.399 \
           
 in_length=96,pre_length=96 \
-Traffic:  Ours                  -- MSE:   MAE:   \
+Traffic:  Ours                  -- MSE: 0.584  MAE: 0.317  \
           DUET (KDD2025)        -- MSE: 0.360  MAE: 0.238  \
           FreEformer(IJCAI2025) -- MSE: 0.435  MAE: 0.251 \
           
